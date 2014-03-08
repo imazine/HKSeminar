@@ -2,8 +2,10 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>git</title>
-  <meta name="author" content="chitacan">
+
+  <!-- 여기에 타이틀을 넣습니다. -->
+  <title>응답하라 반응형 웹 - 2. 디자인 경량화 </title>
+  <meta name="author" content="redribbon">
 
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -11,8 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/chitacan.css" id="theme">
-
+  <link rel="stylesheet" href="css/theme/redribbon.css" id="theme">
+  <link rel="stylesheet" href="css/fullscreen-img.css">
   <!-- For syntax highlighting -->
   <link rel="stylesheet" href="lib/css/atelier-seaside.light.css">
 
@@ -31,18 +33,20 @@
   <div class="reveal">
     <div class="slides">
 
-      <section>
-        <h1 style="font-size:5em;">깃</h1>
+      <!-- Cover1 부터 색션별로 사용 -->
+      <section fullscreen-img="/img/cover2.jpg">
+      <!-- <h3 class="frontTitle">2. 디자인 경량화</h3> -->
+<!--         <h1 style="font-size:5em;">깃</h1>
         <small style="color:darkgray;">[gɪt][명사] (英 속어) 재수 없는[멍청한] 놈</small>
         <p>시작하기</p>
           <small>by
             <a href="https://github.com/chitacan" class="roll">chitacan</a>
           </small>
-        </p>
+        </p> -->
       </section>
 
       <section>
-        <h1>오늘의 주제</h1>
+        <h1>Speaker</h1>
         <p style="color:darkgray;">는 아닙니다...</p>
         <ul>
           <li>SVN vs Git</li>
@@ -272,6 +276,9 @@
           condition: function() { 
             return !document.body.classList;
           } 
+        },
+        {
+          src: 'lib/js/fullscreen-img.js'
         },
         { 
           src: 'plugin/markdown/showdown.js', 
