@@ -44,6 +44,10 @@ body {
   background: rgba(45, 62, 93, 0.80);
   text-shadow: none; }
 
+img{
+  box-shadow: none;
+  border: none;
+}
 /*********************************************
  * HEADERS
  *********************************************/
@@ -99,8 +103,8 @@ body {
 }
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  /*background: rgba(255, 255, 255, 0.12);*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
@@ -186,4 +190,9 @@ body {
 
 .frontTitle{
   margin-top: 4em;
+}
+
+.reveal .profileImage{
+  float: left;
+  width: 250px;
 }
