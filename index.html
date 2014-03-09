@@ -1,426 +1,382 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-  <!-- 여기에 타이틀을 넣습니다. -->
-  <title>응답하라 반응형 웹 - 2. 디자인 경량화 </title>
-  <meta name="author" content="redribbon">
+    <!-- 여기에 타이틀을 넣습니다. -->
+    <title>응답하라 반응형 웹 - 2. 디자인 경량화 </title>
+    <meta name="author" content="redribbon">
 
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/redribbon.css" id="theme">
-  <link rel="stylesheet" href="css/fullscreen-img.css">
-  <!-- For syntax highlighting -->
-  <link rel="stylesheet" href="lib/css/atelier-seaside.light.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/redribbon.css" id="theme">
+    <link rel="stylesheet" href="css/fullscreen-img.css">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/atelier-seaside.light.css">
 
-  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
-  <!-- 
-  <script>
-    document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-  </script>
-  -->
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <!--
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+    -->
 
-  <!--[if lt IE 9]>
-  <script src="lib/js/html5shiv.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 <body>
-  <div class="reveal">
-    <div class="slides">
+<div class="reveal">
+<div class="slides">
 
-      <!-- Cover1 부터 색션별로 사용 -->
-      <section fullscreen-img="img/cover2.jpg">
-      <!-- <h3 class="frontTitle">2. 디자인 경량화</h3> -->
-<!--         <h1 style="font-size:5em;">깃</h1>
-        <small style="color:darkgray;">[gɪt][명사] (英 속어) 재수 없는[멍청한] 놈</small>
-        <p>시작하기</p>
-          <small>by
-            <a href="https://github.com/chitacan" class="roll">chitacan</a>
-          </small>
-        </p> -->
-      </section>
+<!-- Cover1 부터 색션별로 사용 -->
+<section fullscreen-img="img/cover2.jpg">
+    <!-- <h3 class="frontTitle">2. 디자인 경량화</h3> -->
+    <!--         <h1 style="font-size:5em;">깃</h1>
+            <small style="color:darkgray;">[gɪt][명사] (英 속어) 재수 없는[멍청한] 놈</small>
+            <p>시작하기</p>
+              <small>by
+                <a href="https://github.com/chitacan" class="roll">chitacan</a>
+              </small>
+            </p> -->
+</section>
 
-      <section class="stack">
+<!--<section class="stack">-->
 
-        <section>
-          <h1>오늘의 주제</h1>
-          <ul>
-  			     <li>디자인 경량화란?</li>
-             <li>경량화의 필요성</li>
-             <li>반응형 예시</li>
-             <li>Flat UI</li>
-             <li>반응형 웹의 종류</li>
-          </ul>
-        </section>
-
-
-        <section>
-          <h1>First Speaker</h1>
-          <img src="img/mohwa.png" class="profileImage">
-          <ul>
-            <li>박일호</li>
-            <li>a.k.a iMaZiNe</li>
-            <li>Front-end Engineer / Design-gineer</li>
-            <li>twitter : @imazine80</li>
-            <li>facebook : imazine80</li>
-          </ul>
-        </section>
-
-      </section>
-
-      <!-- 디자인 경량화란 -->
-      <section class="stack">
-        <section>
-          <h1>디자인 경량화란?</h1>
-        </section>
-
-        <section>
-          <p>지속적인 사용자 경험을 바탕으로한</p>
-          <h3> 친절하고 겸손한 디자인 포인트</h3>
-        </section>
-      </section>
-
-      <!-- 경량화의 필요성 -->
-      <section class="stack">
-        <section>
-          <h2>경량화의 필요성</h2>
-          <ul>
-            <li>LTE? 네트웍은 아직 평등하지 않다</li>
-            <li>더욱 작아지는 Device</li>
-            <li>환경을 위할리가... LP!</li>
-          </ul>
-
-        </section>
-      </section>
-
-      <section class="stack">
-        <section>
-          <h2>반응형 예시</h2>
-        </section>
-
-        <section>
-          <h3>국내 사이트</h3>
-          <ul>
-            <li><a href="https://www.hdable.co.kr/go.able" target="_blank" class="jump">현대 투자 증권</a></li>
-            <li><a href="http://www.acornpub.co.kr" target="_blank" class="jump">에이콘 출판사</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>해외 사이트</h3>
-          <ul>
-            <li><a href="http://colly.com/" target="_blank" class="jump">Mr. Simon Collison</a></li>
-            <li><a href="http://foodsense.is/" target="_blank" class="jump">Food Sense</a></li>
-            <li><a href="http://us.illyissimo.com/" target="_blank" class="jump">illy Issimo</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Issues</h2>
-          <ul>
-            <li>한글 폰트</li>
-            <li>Image Quality</li>
-            <li>접근성</li>
-            <li>현실적 방법론?</li>
-          </ul>
-        </section>
-      </section>
+<!--<section>-->
+<!--<h1>오늘의 주제</h1>-->
+<!--<ul>-->
+<!--<li>디자인 경량화란?</li>-->
+<!--<li>경량화의 필요성</li>-->
+<!--<li>반응형 예시</li>-->
+<!--<li>Flat UI</li>-->
+<!--<li>반응형 웹의 종류</li>-->
+<!--</ul>-->
+<!--</section>-->
 
 
-      <!-- Flat UI 의 등장과 적용 -->
-      <section class="stack">
+<!--<section>-->
+<!--<h1>First Speaker</h1>-->
+<!--<img src="img/mohwa.png" class="profileImage">-->
+<!--<ul>-->
+<!--<li>박일호</li>-->
+<!--<li>a.k.a iMaZiNe</li>-->
+<!--<li>Front-end Engineer / Design-gineer</li>-->
+<!--<li>twitter : @imazine80</li>-->
+<!--<li>facebook : imazine80</li>-->
+<!--</ul>-->
+<!--</section>-->
 
-        <section>
-          <h2>Flat UI</h2>
-        </section>
+<!--</section>-->
 
-        <section>
-          <ul>
-            <li>MS 의 Zune 에서 처음 채용된 것으로 알려져 있음</li>
-            <li>iOS 이후 MertoUI 의 등장과 함께 뜨거운 감자로 부상</li>
-            <li>Vector 기반의 장점을 그대로 웹에 적용할 수 있음</li>
-          </ul>
-        </section>
+<!--&lt;!&ndash; 디자인 경량화란 &ndash;&gt;-->
+<!--<section class="stack">-->
+<!--<section>-->
+<!--<h1>디자인 경량화란?</h1>-->
+<!--</section>-->
 
-        <section>
-          <h2>Vector 의 장점 ?</h2>
-          <img src="img/rvsv.jpg" alt="">
-        </section>
+<!--<section>-->
+<!--<p>지속적인 사용자 경험을 바탕으로한</p>-->
+<!--<h3> 친절하고 겸손한 디자인 포인트</h3>-->
+<!--</section>-->
+<!--</section>-->
 
-        <section>
-          <ul>
-            <li>적은 용량으로 풍부한 표현이 가능</li>
-            <li>
-              해상도와 크기에 영향이 없음
-              <p> - Retina Display & Hdpi 대응</p>
-            </li>
-            <li>
-              단순 구조 표현에 적합
-              <p> - Gradation 외 색상표현의 자유도가 떨어짐</p>
-              <p> - CSS 구현상의 연구가 필요함</p>
-            </li>
-          </ul>
-        </section>
+<!--&lt;!&ndash; 경량화의 필요성 &ndash;&gt;-->
+<!--<section class="stack">-->
+<!--<section>-->
+<!--<h2>경량화의 필요성</h2>-->
+<!--<ul>-->
+<!--<li>LTE? 네트웍은 아직 평등하지 않다</li>-->
+<!--<li>더욱 작아지는 Device</li>-->
+<!--<li>환경을 위할리가... LP!</li>-->
+<!--</ul>-->
 
-        <!-- Font icon -->
-        <section>
-          <h1>Font-icon</h1>
-          <img src="img/octicon.jpg" alt="">
-        </section>
+<!--</section>-->
+<!--</section>-->
 
-        <section>
-          <ul>
-            <li>Dingbat Font 라는 기술로 존재했음</li>
-            <li>
-              <b>21th 7. 12</b> - Say Hello Octicon 발표로 세간의 주목
-              <p> - Cameron McEfee</p>
-              <p> - Jon Rohan</p>
-              </li>
-            <li>unicode 의 사용자 정의 영역(0xE000 ~ 0xF8FF)사용 권장</li>
-          </ul>
-        </section>
+<!--<section class="stack">-->
+<!--<section>-->
+<!--<h2>반응형 예시</h2>-->
+<!--</section>-->
 
-        <section>
-          <h3>Free Sites</h3>
-          <ul>
-            <li><a href="http://www.iconmoon.io" target="_blank" class="jump">icomoon.io</a></li>
-            <li><a href="http://www.fontello.com" target="_blank" class="jump">Fontello.com</a></li>
-            <li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank" class="jump">Font-Awesome</a></li>
-            <li><a href="http://zurb.com/playground/foundation-icons" target="_blank" class="jump">Foundation Icons</a></li>
-            <li><a href="http://somerandomdude.com/work/iconic/" target="_blank" class="jump">Iconic</a></li>
-          </ul>
-        </section>
+<!--<section>-->
+<!--<h3>국내 사이트</h3>-->
+<!--<ul>-->
+<!--<li><a href="https://www.hdable.co.kr/go.able" target="_blank" class="jump">현대 투자 증권</a></li>-->
+<!--<li><a href="http://www.acornpub.co.kr" target="_blank" class="jump">에이콘 출판사</a></li>-->
+<!--</ul>-->
+<!--</section>-->
 
-        <section>
-          <h1>Summary</h1>
-        </section>
+<!--<section>-->
+<!--<h3>해외 사이트</h3>-->
+<!--<ul>-->
+<!--<li><a href="http://colly.com/" target="_blank" class="jump">Mr. Simon Collison</a></li>-->
+<!--<li><a href="http://foodsense.is/" target="_blank" class="jump">Food Sense</a></li>-->
+<!--<li><a href="http://us.illyissimo.com/" target="_blank" class="jump">illy Issimo</a></li>-->
+<!--</ul>-->
+<!--</section>-->
 
-        <section>
-          <img src="img/bless2.jpg" alt="">
-          <h3>FlatUI 는 반응형 디자인의 축복</h3>
-        </section>
+<!--<section>-->
+<!--<h2>Issues</h2>-->
+<!--<ul>-->
+<!--<li>한글 폰트</li>-->
+<!--<li>Image Quality</li>-->
+<!--<li>접근성</li>-->
+<!--<li>현실적 방법론?</li>-->
+<!--</ul>-->
+<!--</section>-->
+<!--</section>-->
 
-        <section>
-          <img src="img/avility.jpg" alt="">
-          <p>Device / Browser 구현 가능성 고려</p>
-          <a href="http://caniuse.com">CanIUse 등 참고</a>
-        </section>
 
-        <section>
-          <img src="img/IE.jpg" alt="">
-          <h3>IE & Android & more... BUT!</h3>
-        </section>
+<!--&lt;!&ndash; Flat UI 의 등장과 적용 &ndash;&gt;-->
+<!--<section class="stack">-->
 
-        <section>
-          <h2>Webkit is just webkit</h2>
-          <p>항상 모든 브라우저에 관심을...</p>
-        </section>
+<!--<section>-->
+<!--<h2>Flat UI</h2>-->
+<!--</section>-->
 
-        <section>
-          <img src="img/dontover.jpg" alt="">
-          <h3>오버하지 말자</h3>
-          <ul>
-            <li>무분별한 이미지</li>
-            <li>마구잡이 플러그인</li>
-            <li>배보다 큰 웹폰트</li>
-          </ul>
-        </section>
+<!--<section>-->
+<!--<ul>-->
+<!--<li>MS 의 Zune 에서 처음 채용된 것으로 알려져 있음</li>-->
+<!--<li>iOS 이후 MertoUI 의 등장과 함께 뜨거운 감자로 부상</li>-->
+<!--<li>Vector 기반의 장점을 그대로 웹에 적용할 수 있음</li>-->
+<!--</ul>-->
+<!--</section>-->
 
-        <section>
-          <h2>"Response"</h2>
-          <img src="img/communication.jpg" alt="">
-          <p>Communication for Collaborators,</p>
-          <h3>Make Collaboration</h3>
-        </section>
-    </section>
-  <section class="stack">
-      <section>
+<!--<section>-->
+<!--<h2>Vector 의 장점 ?</h2>-->
+<!--<img src="img/rvsv.jpg" alt="">-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<ul>-->
+<!--<li>적은 용량으로 풍부한 표현이 가능</li>-->
+<!--<li>-->
+<!--해상도와 크기에 영향이 없음-->
+<!--<p> - Retina Display & Hdpi 대응</p>-->
+<!--</li>-->
+<!--<li>-->
+<!--단순 구조 표현에 적합-->
+<!--<p> - Gradation 외 색상표현의 자유도가 떨어짐</p>-->
+<!--<p> - CSS 구현상의 연구가 필요함</p>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</section>-->
+
+<!--&lt;!&ndash; Font icon &ndash;&gt;-->
+<!--<section>-->
+<!--<h1>Font-icon</h1>-->
+<!--<img src="img/octicon.jpg" alt="">-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<ul>-->
+<!--<li>Dingbat Font 라는 기술로 존재했음</li>-->
+<!--<li>-->
+<!--<b>21th 7. 12</b> - Say Hello Octicon 발표로 세간의 주목-->
+<!--<p> - Cameron McEfee</p>-->
+<!--<p> - Jon Rohan</p>-->
+<!--</li>-->
+<!--<li>unicode 의 사용자 정의 영역(0xE000 ~ 0xF8FF)사용 권장</li>-->
+<!--</ul>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<h3>Free Sites</h3>-->
+<!--<ul>-->
+<!--<li><a href="http://www.iconmoon.io" target="_blank" class="jump">icomoon.io</a></li>-->
+<!--<li><a href="http://www.fontello.com" target="_blank" class="jump">Fontello.com</a></li>-->
+<!--<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank" class="jump">Font-Awesome</a></li>-->
+<!--<li><a href="http://zurb.com/playground/foundation-icons" target="_blank" class="jump">Foundation Icons</a></li>-->
+<!--<li><a href="http://somerandomdude.com/work/iconic/" target="_blank" class="jump">Iconic</a></li>-->
+<!--</ul>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<h1>Summary</h1>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<img src="img/bless2.jpg" alt="">-->
+<!--<h3>FlatUI 는 반응형 디자인의 축복</h3>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<img src="img/avility.jpg" alt="">-->
+<!--<p>Device / Browser 구현 가능성 고려</p>-->
+<!--<a href="http://caniuse.com">CanIUse 등 참고</a>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<img src="img/IE.jpg" alt="">-->
+<!--<h3>IE & Android & more... BUT!</h3>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<h2>Webkit is just webkit</h2>-->
+<!--<p>항상 모든 브라우저에 관심을...</p>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<img src="img/dontover.jpg" alt="">-->
+<!--<h3>오버하지 말자</h3>-->
+<!--<ul>-->
+<!--<li>무분별한 이미지</li>-->
+<!--<li>마구잡이 플러그인</li>-->
+<!--<li>배보다 큰 웹폰트</li>-->
+<!--</ul>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--<h2>"Response"</h2>-->
+<!--<img src="img/communication.jpg" alt="">-->
+<!--<p>Communication for Collaborators,</p>-->
+<!--<h3>Make Collaboration</h3>-->
+<!--</section>-->
+<!--</section>-->
+<section class="stack">
+    <section>
         <h1>Next Speaker</h1>
         <img src="img/mohwa.png" class="profileImage">
         <ul>
-          <li>전성균</li>
-          <li>a.k.a Mohwa</li>
-          <li>CarbonCode Front-end Engineer</li>
-          <li>JavaScript로 돈벌고 싶었던,<br> 10년자 Server-Side 개발자</li>
-          <li>twitter : @yanione</li>
-          <li>facebook : yanione</li>
+            <li>전성균</li>
+            <li>a.k.a Mohwa</li>
+            <li>CarbonCode Front-end Engineer</li>
+            <li>JavaScript로 돈벌고 싶었던,<br> 10년차 Server-Side .NET 개발자</li>
+            <li>twitter : @yanione</li>
+            <li>facebook : yanione</li>
         </ul>
-      </section>
-  </section>
+    </section>
+</section>
 
-  <section class="stack">
+<section class="stack">
 
     <section>
-      <h2>반응형 웹의 종류</h2>
+        <h2>반응형 웹의 종류</h2>
     </section>
-      <section>
-          <h3>Fluid Layout</h3>
-          <img src="img/fluidgrids.jpg" height="400" />
-          <li>비율에 기초한 그리드를 기준으로 컨텐츠 폭을 유기적으로 대응하는 방법.</li>
-          <!--<li>비율에 기초한 그리드를 기준으로 컨텐츠 폭을 유동적으로 변경해 대응하는 방법.</li>-->
-      </section>
-      <section>
-          <h3>Adaptive Layout</h3>
-          <img src="img/switchymcLayout.jpg"  height="400" />
-          <li>사용자 화면 사이즈를 기준으로 스타일을 유기적으로 변경하는 방법.</li>
-          <!--자바스크립트를 통해 사용자 화면 사이즈를 반환받아 미리 정의된 스타일을 유동적으로 변경하는 방법이며,
-          현재는 브라우저 지원 여부에 따라 CSS3 @media query가 그 역할을 대신하고 있다.-->
-          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
-      </section>
-      <section>
-          <h2>Viewport 란?</h2>
-      </section>
-      <section>
-          <img src="img/viewport1.jpg" />
-          <li>HTML 요소를 제어하는 또 하나의 요소</li>
-          <!--<p>2. Visual 영역과 Layout 영역으로 나뉜다</p>-->
-          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
-      </section>
-      <section>
-          <img src="img/viewport2.jpg" height="500">
-          <img src="img/viewport3.jpg" height="500">
-          <li>Visual viewport와 Layout viewport로 나뉜다</li>
-          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
-
-          <!--- visual viewport!!! -->
-          <!--visual 영역은 페이지에서 현재 사용자가 보고있는 가시적인 영역을 말한다.-->
-
-          <!--- layout viewport!!! -->
-          <!--- layout 영역은 페이지의 전체 영역을 완전히 zoom out(축소) 한 상태의 영역을 말한다. -->
-      </section>
-      <section>
-          <img src="img/viewport4.jpg" height="500">
-          <li>그럼 사용자가 보는 화면은?</li>
-
-          <!--- 결국 모바일 환경에서는 페이지 전체 영역을 완전히 zoom out(축소) 한 상태로 보여지게 되며,
-          이는 곧, 사용자 경험을 해치는 원인이 된다.(작은 폰트 와 이미지 등등등...)
-          -->
-
-          <!--- 사용자가 보는 화면과 이미지가 작아지는 이유!!!! -->
-
-          <!--- CSS 내부에 지정된(%) 모든 컨텐츠 영역은 "기존 데스크탑 레이아웃"과 동일하게 보이기 위해,
-          <!-- layout viewport 기준으로 계산되며, 계산된 영역은 디바이스(아이폰(기준)) 화면(320px)보다 큰 크기(980px)로 랜더링 된다. -->
-
-      </section>
-      <section>
-          <h2>어떻게 적용하나?</h2>
-      </section>
-      <section>
-          <h1>Meta Tag</h1>
+    <section>
+        <h3>Fluid Layout</h3>
+        <img src="img/fluidgrids.jpg" height="200" />
+        <li>비율에 따라 컨텐츠 폭을 유동적으로 대응하는 방법</li>
+    </section>
+    <section>
+        <h3>Adaptive Layout</h3>
+        <img src="img/switchymcLayout.jpg"  height="400" />
+        <li>화면 사이즈에 따라 스타일을 변경하는 방법</li>
+    </section>
+    <section>
+        <h1>Viewport 란?</h1>
+    </section>
+    <section>
+        <img src="img/viewport1.jpg" />
+        <li>HTML 요소를 제어하는 또 하나의 요소</li>
+    </section>
+    <section>
+        <img src="img/viewport2.jpg" height="500">
+        <img src="img/viewport3.jpg" height="500">
+        <li>Visual viewport/Layout viewport(각 레이아웃을 이미지에 따라 나누기)</li>
+    </section>
+    <section>
+        <h2>어떻게 적용하나?</h2>
+    </section>
+    <section>
+        <h2>Meta Tag</h2>
 	<pre><code>
-<meta name="viewport" content="width=device-width, initial-scale=1.0,
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
 maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     </code></pre>
-          <li>여러 디바이스 해상도를 유기적으로 대응하기 위해 사용한다.</li>
-          <!--<ul>-->
-          <!--<li>width: viewport 의 가로 사이즈를 정의한다 대부분 디바이스의 사이즈를 사용한다.</li>-->
-          <!--<li>height: viewport의 세로 사이즈를 정의한다.(기본 값은 할당된 width 사이즈를 기반으로 화면 비율에 따라 계산되어 정의된다(따로 정의하지 않는 것이 보통이다))</li>-->
-          <!--<li>user-scalable: 브라우저의 zoom in/out을 가능 여부를 정의한다.</li>-->
-          <!--<li>initial-scale: 초기 확대 값을 정의한다.</li>-->
-          <!--<li>minimum-scale: 최소 확소 값을 정의한다.</li>-->
-          <!--<li>maximum-scale: 최대 확대 값을 정의한다.</li>-->
-          <!--</ul>-->
-      </section>
-      <section>
-          <h1>TIP!!</h1>
-      </section>
-      <section>
-          <h5>“user-scalable” 속성 값이 "yes" 인데 zoom in/out 불가능?</h5>
+        <li>여러 디바이스 해상도를 유동적으로 대응하기 위해 사용한다(코드 수정(길게))</li>
+    </section>
+    <section>
+        <h5>“user-scalable” 값이 "yes" 인데 zoom in/out 불가능?</h5>
         <pre><code>
-<meta name="viewport" content="width=device-width, initial-scale=1.0,
-minimum-scale=1.0, user-scalable=no">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0,
+minimum-scale=1.0, user-scalable=yes">
         </code></pre>
-      </section>
-      <section>
-          <h1>Media Query</h1>
-      </section>
-      <section>
-          <h2>Media Query 란?</h2>
-          <li>디바이스 특성에 따라 브라우저가 해석할 CSS를 분기 시키는 처리 규칙</li>
-      </section>
-          <section>
-          <h2>어떻게 적용하나?</h2>
-      </section>
-      <section>
-          <h2>link Tag</h2>
+    </section>
+    <section>
+        <h1>Media Query</h1>
+    </section>
+    <section>
+        <h2>Media Query 란?</h2>
+        <li>디바이스 특성에 따라 CSS를 분기 시키는 규칙</li>
+    </section>
+    <section>
+        <h2>어떻게 적용하나?</h2>
+    </section>
+    <section>
+        <h2>Link Tag</h2>
         <pre><code>
-<link rel="stylesheet" media="screen and (min-width:320px)
+            <link rel="stylesheet" media="screen and (min-width:320px)
 and (max-width:480px)" href="320.css">
         </code></pre>
-      </section>
-      <section>
+    </section>
+    <section>
         <h2>CSS Media Query</h2>
         <pre><code>
-        @media only screen
+            @media only screen
             and (min-device-width : 320px)
             and (max-device-width : 480px){
             body{
-                background-color: green;
+            background-color: green;
             }
-        }
+            }
         </code></pre>
-      </section>
-      <section>
-          <h2>Respond.min.js</h2>
+    </section>
+    <section>
+        <h2>Respond.js</h2>
         <pre><code>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
 respond.min.js"></script>
         </code></pre>
         <li>구 IE(6~8) 브라우저를 위한 JavaScript 라이브러리</li>
-<!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
-      </section>
-      <section>
-          <h2>Css3-mediaqueries-js</h2>
+        <!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
+    </section>
+    <section>
+        <h2>Css3-mediaqueries-js</h2>
         <pre><code>
-<script type="text/javascript" src="http://css3-mediaqueries-js.
+            <script type="text/javascript" src="http://css3-mediaqueries-js.
 googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         </code></pre>
-          <li>구 모바일 브라우저를 위한 JavaScript 라이브러리</li>
-          <!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
-      </section>
-      <section>
-          <h2>한번 더 줄여보자!!</h2>
-      </section>
-      <section>
-          <h3>그밖의 최적화 기술들</h3>
-          <ul>
-              <li>CSS Sprite</li>
-              <!--- 재 사용(CMS를 통해 관리되지 않는 이미지) 가능한 이미지의 경우 CSS “background-position”
-              속성을 통해 서버 request 요청을 줄일 수 있는 방법-->
-
-              <li>Web-font</li>
-
-              <!--- 폰트 가독성, 사이트 유지보수, 검색엔진 최적화(SEO)를 위해 미지 화 시킨
-              “텍스트”가 아닌 실제 폰트를 사용해 렌더링 하는 방법.-->
-
-              <!--** 한글 폰트의 경우 글자 수로 인해 용량이 크다는 단점이 존재한다.(외국에서는 국내와 달리 관련 서비스가 활발히 도입되고 있다)-->
-
-              <li>Resource(JS, CSS) Combine 및 Minifier</li>
-              <!--- 리소스 Combine 및 압축을 통해 서버 request 요청과 전체 리소스 용량을 줄 일수 있다.-->
-          </ul>
-      </section>
-  </section>
-
-  <section class="stack">
-    <section>
-      <h1>Thanks</h1>
+        <li>구 모바일 브라우저를 위한 JavaScript 라이브러리</li>
+        <!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
     </section>
-  </section>
+    <section>
+        <h2>한번 더 줄여보자!!</h2>
+    </section>
+    <section>
+        <h3>그밖의 최적화 기술들</h3>
+    </section>
+    <section>
+        <h2>CSS Sprite</h2>
+    </section>
+    <section>
+        <h2>Web-Font</h2>
+    </section>
+    <section>
+        <h3>Resource(JS, CSS) Combine 및 Minifier</h3>
+    </section>
+</section>
+
+<section class="stack">
+    <section>
+        <h1>Thanks</h1>
+    </section>
+</section>
 
 
 
-    </div>
-  </div>
+</div>
+</div>
 
-  <script src="lib/js/head.min.js"></script>
-  <script src="js/reveal.js"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
-  <script>
+<script>
 
     document.addEventListener("DOMContentLoaded", init, false);
 
@@ -439,64 +395,64 @@ googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     // Full list of configuration options available here:
     // https://github.com/hakimel/reveal.js#configuration
     Reveal.initialize({
-      controls: true,
-      progress: true,
-      history: true,
-      center: true,
-      rollingLinks:true,
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        rollingLinks:true,
 
-      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-      transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
-      backgroundTransition: 'slide',
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+        backgroundTransition: 'slide',
 
-      // Optional libraries used to extend on reveal.js
-      dependencies: [
-        {
-          src: 'lib/js/classList.js', 
-          condition: function() { 
-            return !document.body.classList;
-          } 
-        },
-        {
-          src: 'lib/js/fullscreen-img.js'
-        },
-        { 
-          src: 'plugin/markdown/showdown.js', 
-          condition: function() { 
-            return !!document.querySelector( '[data-markdown]' );
-          }
-        },
-        { 
-          src: 'plugin/markdown/markdown.js',
-          condition: function() { 
-            return !!document.querySelector( '[data-markdown]' );
-          }
-        },
-        { 
-          src: 'plugin/highlight/highlight.js', 
-          async: true, 
-          callback: function() {
-            hljs.initHighlightingOnLoad();
-          }
-        },
-        {
-          src: 'plugin/ibg/ibg.js',
-          async: true,
-          callback: function() {
-            ibg.init();
-          }
-        },
-        {
-          src: 'plugin/jump/jump.js',
-          async: true,
-          callback: function() {
-            jump.init();
-          }
-        }
-      ]
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            {
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            },
+            {
+                src: 'lib/js/fullscreen-img.js'
+            },
+            {
+                src: 'plugin/markdown/showdown.js',
+                condition: function() {
+                    return !!document.querySelector( '[data-markdown]' );
+                }
+            },
+            {
+                src: 'plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector( '[data-markdown]' );
+                }
+            },
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            {
+                src: 'plugin/ibg/ibg.js',
+                async: true,
+                callback: function() {
+                    ibg.init();
+                }
+            },
+            {
+                src: 'plugin/jump/jump.js',
+                async: true,
+                callback: function() {
+                    jump.init();
+                }
+            }
+        ]
     });
 
 
-  </script>
+</script>
 </body>
 </html>
