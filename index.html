@@ -74,7 +74,7 @@
 
       <!-- 디자인 경량화란 -->
       <section class="stack">
-        <section> 
+        <section>
           <h1>디자인 경량화란?</h1>
         </section>
 
@@ -165,7 +165,7 @@
             </li>
           </ul>
         </section>
-        
+
         <!-- Font icon -->
         <section>
           <h1>Font-icon</h1>
@@ -238,9 +238,6 @@
         </section>
       </section>
 
-
-<!-- 성균이 -->
-
   <section class="stack">
       <section>
         <h1>Next Speaker</h1>
@@ -249,19 +246,163 @@
           <li>전성균</li>
           <li>a.k.a Mohwa</li>
           <li>CarbonCode Front-end Engineer</li>
-          <li>이건 니가 알아</li>
-          <li>아마 다섯줄이 이쁠라나?</li>
+          <li>JavaScript로 돈벌고 싶었던, 10년자 Server-Side 개발자</li>
+          <li>twitter : @yanione</li>
+          <li>facebook : yanione</li>
         </ul>
       </section>
   </section>
 
   <section class="stack">
+
     <section>
-      <h2>Viewport 란?</h2>
+      <h2>반응형 웹의 종류</h2>
     </section>
-    <section>
-      <p>bla bla</p>
-    </section>
+      <section>
+          <h3>Fluid Layout</h3>
+          <img src="img/fluidgrids.jpg" height="400" />
+          <li>비율에 기초한 그리드를 기준으로 컨텐츠 폭을 유기적으로 대응하는 방법.</li>
+          <!--<li>비율에 기초한 그리드를 기준으로 컨텐츠 폭을 유동적으로 변경해 대응하는 방법.</li>-->
+      </section>
+      <section>
+          <h3>Adaptive Layout</h3>
+          <img src="img/switchymcLayout.jpg"  height="400" />
+          <li>사용자 화면 사이즈를 기준으로 스타일을 유기적으로 변경하는 방법.</li>
+          <!--자바스크립트를 통해 사용자 화면 사이즈를 반환받아 미리 정의된 스타일을 유동적으로 변경하는 방법이며,
+          현재는 브라우저 지원 여부에 따라 CSS3 @media query가 그 역할을 대신하고 있다.-->
+          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
+      </section>
+      <section>
+          <h2>Viewport 란?</h2>
+      </section>
+      <section>
+          <img src="img/viewport1.jpg" />
+          <li>HTML 요소를 제어하는 또 하나의 요소</li>
+          <!--<p>2. Visual 영역과 Layout 영역으로 나뉜다</p>-->
+          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
+      </section>
+      <section>
+          <img src="img/viewport2.jpg" height="500">
+          <img src="img/viewport3.jpg" height="500">
+          <li>Visual viewport와 Layout viewport로 나뉜다</li>
+          <!--<p>3. Viewport의 크기는 Html 요소의 크기와 동일하다.</p>-->
+
+          <!--- visual viewport!!! -->
+          <!--visual 영역은 페이지에서 현재 사용자가 보고있는 가시적인 영역을 말한다.-->
+
+          <!--- layout viewport!!! -->
+          <!--- layout 영역은 페이지의 전체 영역을 완전히 zoom out(축소) 한 상태의 영역을 말한다. -->
+      </section>
+      <section>
+          <img src="img/viewport4.jpg" height="500">
+          <li>그럼 사용자가 보는 화면은?</li>
+
+          <!--- 결국 모바일 환경에서는 페이지 전체 영역을 완전히 zoom out(축소) 한 상태로 보여지게 되며,
+          이는 곧, 사용자 경험을 해치는 원인이 된다.(작은 폰트 와 이미지 등등등...)
+          -->
+
+          <!--- 사용자가 보는 화면과 이미지가 작아지는 이유!!!! -->
+
+          <!--- CSS 내부에 지정된(%) 모든 컨텐츠 영역은 "기존 데스크탑 레이아웃"과 동일하게 보이기 위해,
+          <!-- layout viewport 기준으로 계산되며, 계산된 영역은 디바이스(아이폰(기준)) 화면(320px)보다 큰 크기(980px)로 랜더링 된다. -->
+
+      </section>
+      <section>
+          <h2>어떻게 적용하나?</h2>
+      </section>
+      <section>
+          <h1>Meta Tag</h1>
+	<pre><code>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    </code></pre>
+          <li>여러 디바이스 해상도를 유기적으로 대응하기 위해 사용한다.</li>
+          <!--<ul>-->
+          <!--<li>width: viewport 의 가로 사이즈를 정의한다 대부분 디바이스의 사이즈를 사용한다.</li>-->
+          <!--<li>height: viewport의 세로 사이즈를 정의한다.(기본 값은 할당된 width 사이즈를 기반으로 화면 비율에 따라 계산되어 정의된다(따로 정의하지 않는 것이 보통이다))</li>-->
+          <!--<li>user-scalable: 브라우저의 zoom in/out을 가능 여부를 정의한다.</li>-->
+          <!--<li>initial-scale: 초기 확대 값을 정의한다.</li>-->
+          <!--<li>minimum-scale: 최소 확소 값을 정의한다.</li>-->
+          <!--<li>maximum-scale: 최대 확대 값을 정의한다.</li>-->
+          <!--</ul>-->
+      </section>
+      <section>
+          <h1>TIP!!</h1>
+      </section>
+      <section>
+          <h5>“user-scalable” 속성 값이 "yes" 인데 zoom in/out 가능?</h5>
+        <pre><code>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+minimum-scale=1.0, user-scalable=no">
+        </code></pre>
+      </section>
+      <section>
+          <h1>Media Query</h1>
+      </section>
+      <section>
+          <h2>Media Query 란?</h2>
+          <li>디바이스 특성에 따라 브라우저가 해석할 CSS를 분기 시키는 처리 규칙</li>
+      </section>
+          <section>
+          <h2>어떻게 적용하나?</h2>
+      </section>
+      <section>
+          <h2>link Tag</h2>
+        <pre><code>
+<link rel="stylesheet" media="screen and (min-width:320px)
+and (max-width:480px)" href="320.css">
+        </code></pre>
+      </section>
+      <section>
+        <h2>CSS Media Query</h2>
+        <pre><code>
+        @media only screen
+            and (min-device-width : 320px)
+            and (max-device-width : 480px){
+            body{
+                background-color: green;
+            }
+        }
+        </code></pre>
+      </section>
+      <section>
+          <h2>Respond.min.js</h2>
+        <pre><code>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
+respond.min.js"></script>
+        </code></pre>
+        <li>구 IE(6~8) 브라우저를 위한 JavaScript 라이브러리</li>
+<!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
+      </section>
+      <section>
+          <h2>Css3-mediaqueries-js</h2>
+        <pre><code>
+<script type="text/javascript" src="http://css3-mediaqueries-js.
+googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        </code></pre>
+          <li>구 모바일 브라우저를 위한 JavaScript 라이브러리</li>
+          <!--<li>구 IE(6~8) 브라우저에서도 @media query 요소를 해석할 수 있도록 respondJS라는 javaScript 라이브러리를 포함 시켜 해결한다.</li>-->
+      </section>
+      <section>
+          <h2>한번 더 줄여보자!!</h2>
+      </section>
+      <section>
+          <ul>
+              <li>CSS Sprite</li>
+              <!--- 재 사용(CMS를 통해 관리되지 않는 이미지) 가능한 이미지의 경우 CSS “background-position”
+              속성을 통해 서버 request 요청을 줄일 수 있는 방법-->
+
+              <li>Web-font</li>
+
+              <!--- 폰트 가독성, 사이트 유지보수, 검색엔진 최적화(SEO)를 위해 미지 화 시킨
+              “텍스트”가 아닌 실제 폰트를 사용해 렌더링 하는 방법.-->
+
+              <!--** 한글 폰트의 경우 글자 수로 인해 용량이 크다는 단점이 존재한다.(외국에서는 국내와 달리 관련 서비스가 활발히 도입되고 있다)-->
+
+              <li>Resource(JS, CSS) Combine 및 Minifier</li>
+              <!--- 리소스 Combine 및 압축을 통해 서버 request 요청과 전체 리소스 용량을 줄 일수 있다.-->
+          </ul>
+      </section>
   </section>
 
     </div>
@@ -272,6 +413,20 @@
 
   <script>
 
+    document.addEventListener("DOMContentLoaded", init, false);
+
+    function init(){
+        var cblocks = document.querySelectorAll("pre code");
+
+        if(cblocks.length) {
+            for(var i=0, len=cblocks.length; i<len; i++) {
+                var dom = cblocks[i];
+                var html = dom.innerHTML;
+                html = html.replace(/</g,"&lt;").replace(/>/g,"&gt;");
+                dom.innerHTML = html;
+            }
+        }
+    }
     // Full list of configuration options available here:
     // https://github.com/hakimel/reveal.js#configuration
     Reveal.initialize({
@@ -331,6 +486,8 @@
         }
       ]
     });
+
+
   </script>
 </body>
 </html>
