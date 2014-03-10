@@ -14,8 +14,8 @@
 */
 @font-face{
   font-family: 'eosm';
-  src: url("/css/theme/eosm.eot");
-  src: url("/css/theme/eosm.woff") format("woff");
+  src: url("http://imazine.github.io/HKSeminar/css/theme/eosm.eot");
+  src: url("http://imazine.github.io/HKSeminar/css/theme/eosm.woff") format("woff");
 }
 /**
  * A simple theme for reveal.js presentations, similar
