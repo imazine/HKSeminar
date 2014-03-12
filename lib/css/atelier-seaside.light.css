@@ -22,7 +22,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #e6193c;
+  color: #fdd;
 }
 
 /* Atelier Seaside Light Orange */
@@ -77,9 +77,13 @@
 
 .hljs {
   display: block;
-  background: #f0fff0;
-  color: #5e6e5e;
-  padding: 0.5em;
+  background: #333;
+  color: #eee;
+
+}
+
+pre{
+  padding: 30px;
 }
 
 .coffeescript .javascript,

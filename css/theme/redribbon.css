@@ -60,7 +60,7 @@ img{
   margin: 0 0 30px 0;
   color: #40974e;
   font-family: "eosm", Impact, "Hanna", serif;
-  line-height: 0.9em;
+  line-height: 1.3em;
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: none; }
@@ -196,3 +196,17 @@ img{
   float: left;
   width: 250px;
 }
+
+.reveal blockquote{
+  margin: 30px auto;
+  font-size: 0.8em;
+  padding: 18px 26px 18px 14px;
+  background-color: #444;
+  border-radius: 30px;
+  color: #eee;
+}
+
+  .reveal blockquote:before,
+  .reveal blockquote:after{
+    content: '"';
+  }
